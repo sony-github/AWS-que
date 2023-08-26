@@ -1,5 +1,5 @@
 resource "aws_vpc" "myvpc" {
-  cidr_block = var.cidr
+  cidr_block = "var.cidr"
 }
 
 resource "aws_subnet" "sub1" {
